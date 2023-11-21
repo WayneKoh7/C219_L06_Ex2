@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>My Page</title>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <a class="navbar-brand" href="#" style="color: white;">Naruto</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#" style="color: white;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: white;">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: white;">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-ride="carousel" style="height: 1000px; overflow: hidden;">
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="carousel1.jpg" alt="Image 1" class="d-block w-100 img-fluid" style="object-fit: cover;">
+            </div>
+            <div class="carousel-item">
+                <img src="carousel2.jpg" alt="Image 2" class="d-block w-100 img-fluid" style="object-fit: cover;">
+            </div>
+            <div class="carousel-item">
+                <img src="carousel3.jpg" alt="Image 3" class="d-block w-100 img-fluid" style="object-fit: cover;">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+
+    <!-- Card Section -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="naruto.jpg" alt="Card Image 1" class="card-img-top img-fluid" style="object-fit: cover; height: 200px;">
+                    <div class="card-body" style="height: 270px;">
+                        <h5 class="card-title">Naruto Uzumaki</h5>
+                        <p class="card-text">Naruto Uzumaki (うずまきナルト, Uzumaki Naruto) is a shinobi of Konohagakure's Uzumaki clan. 
+                            He became the jinchūriki of the Nine-Tails on the day of his birth — a fate that caused him to be shunned by most of Konoha throughout his childhood.
+                        <br></p>
+                        <a href="#" class="btn btn-dark">Learn more</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Footer</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="boruto.jpg" alt="Card Image 2" class="card-img-top img-fluid" style="object-fit: cover; height: 200px;">
+                    <div class="card-body" style="height: 270px;">
+                        <h5 class="card-title">Boruto Uzumaki</h5>
+                        <p class="card-text">Boruto Uzumaki (うずまきボルト, Uzumaki Boruto) is a missing-nin from Konohagakure's Uzumaki clan and a direct descendant of the Hyūga clan through his mother.</p>
+                        <a href="#" class="btn btn-dark">Learn more</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Footer</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="sasuke.jpg" alt="Card Image 3" class="card-img-top img-fluid" style="object-fit: cover; height: 200px;">
+                    <div class="card-body" style="height: 270px;">
+                        <h5 class="card-title">Sasuke Uchiha</h5>
+                        <p class="card-text">Sasuke Uchiha (うちはサスケ, Uchiha Sasuke) is one of the last surviving members of Konohagakure's Uchiha clan. 
+                            After his older brother, Itachi, slaughtered their clan, Sasuke made it his mission in life to avenge them by killing Itachi.</p>
+                        <a href="#" class="btn btn-dark">Learn more</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Footer</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white mt-5 p-5">
+        <p>Narutoo</p>
+    </footer>
+
+</body>
+
+</html>
